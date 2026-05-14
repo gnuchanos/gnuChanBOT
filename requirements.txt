@@ -1,0 +1,20 @@
+# Discord bot
+discord.py[voice]>=2.4.0,<3
+
+# Async DB + ORM
+sqlalchemy[asyncio]>=2.0.30,<3
+aiosqlite>=0.20.0
+asyncpg>=0.29.0
+
+# Config
+pydantic>=2.7.0,<3
+pydantic-settings>=2.2.0,<3
+
+# HTTP for Roblox API
+aiohttp>=3.9.0,<4
+
+# TTL cache
+cachetools>=5.3.0,<6
+
+# Optional music (legacy)
+yt-dlp>=2024.8.0
